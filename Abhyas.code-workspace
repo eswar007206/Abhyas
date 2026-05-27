@@ -1,0 +1,22 @@
+{
+  "folders": [
+    { "name": "frontend", "path": "frontend" },
+    { "name": "backend", "path": "backend" },
+    { "name": "supabase", "path": "supabase" },
+    { "name": "docs", "path": "docs" }
+  ],
+  "settings": {
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "css.validate": false,
+    "files.associations": {
+      "*.css": "tailwindcss"
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "bradlc.vscode-tailwindcss"
+    ]
+  }
+}
